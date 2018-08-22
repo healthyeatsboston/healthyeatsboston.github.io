@@ -1,0 +1,404 @@
+Last login: Wed Aug 22 11:43:34 on ttys001
+GWC20s-MacBook-Air:~ gwc20$ git remote add origin https://github.com/tals2000/HealthyEats.github.io.git
+fatal: remote origin already exists.
+GWC20s-MacBook-Air:~ gwc20$ git push origin master
+Everything up-to-date
+GWC20s-MacBook-Air:~ gwc20$ git add .FINALFINALFINALPROJECT
+fatal: pathspec '.FINALFINALFINALPROJECT' did not match any files
+GWC20s-MacBook-Air:~ gwc20$ echo "# HealthyEats.github.io" >> README.md
+GWC20s-MacBook-Air:~ gwc20$ git init
+Reinitialized existing Git repository in /Users/gwc20/.git/
+GWC20s-MacBook-Air:~ gwc20$ git add README.md
+GWC20s-MacBook-Air:~ gwc20$ git remote add origin https://github.com/tals2000/HealthyEats.github.io.git
+fatal: remote origin already exists.
+GWC20s-MacBook-Air:~ gwc20$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+GWC20s-MacBook-Air:~ gwc20$ echo "# Healthy-Eats-Boston" >> README.md
+GWC20s-MacBook-Air:~ gwc20$ git init
+Reinitialized existing Git repository in /Users/gwc20/.git/
+GWC20s-MacBook-Air:~ gwc20$ git add README.md
+GWC20s-MacBook-Air:~ gwc20$ git commit -m "first commit"
+[master 51b4460] first commit
+ Committer: GWC20 <gwc20@GWC20s-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+GWC20s-MacBook-Air:~ gwc20$ git remote add origin https://github.com/tals2000/Healthy-Eats-Boston.git
+fatal: remote origin already exists.
+GWC20s-MacBook-Air:~ gwc20$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/tals2000/Dog-Website.git
+   5433a38..51b4460  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+GWC20s-MacBook-Air:~ gwc20$ cd Desktop
+GWC20s-MacBook-Air:Desktop gwc20$ cd Healthy-Eats-Boston
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git init
+Initialized empty Git repository in /Users/gwc20/Desktop/Healthy-Eats-Boston/.git/
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	15344473824521761-1.png
+	Abby.JPG
+	F.png
+	Florkenthia3.JPG
+	Stephanie.JPG
+	Tal.JPG
+	Tal2.JPG
+	Volunteer.json
+	aboutus.html
+	aboutusdraft.css
+	button.png
+	city.png
+	city1.jpg
+	donate.png
+	donate2.png
+	dot.png
+	download-1 9.01.05 AM.jpg
+	download.jpg
+	favicon.ico
+	favicon2.ico
+	fb.png
+	find_food.html
+	food.jpg
+	fruit.jpg
+	green2.svg
+	harbor.jpg
+	help.png
+	images-1.jpg
+	images-2.jpg
+	images.jpg
+	index.html
+	leaf.jpeg
+	logi.png
+	logo.png
+	logo2.png
+	logo3.png
+	logo4.png
+	love.png
+	market.jpg
+	poooo.png
+	produce.jpg
+	produce2.jpg
+	radish.png
+	request.png
+	requests 2.js
+	requests.html
+	requests.js
+	requestspecific.css
+	requestspecific.html
+	stylefind_food.css
+	styleindex.css
+	stylerequests.css
+	stylevolunteer.css
+	truck.png
+	veg1.png
+	veg2.png
+	veg3.png
+	veggies.jpg
+	vol.html
+	vol.js
+	volunteer.html
+	volunteerReal.jpg
+	volunteerspecific.css
+	volunteerspecific.html
+	volunteersubmit.html
+	weird.jpg
+	what.jpeg
+	what.jpg
+	wowie.jpg
+	yum.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git add .
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   15344473824521761-1.png
+	new file:   Abby.JPG
+	new file:   F.png
+	new file:   Florkenthia3.JPG
+	new file:   Stephanie.JPG
+	new file:   Tal.JPG
+	new file:   Tal2.JPG
+	new file:   Volunteer.json
+	new file:   aboutus.html
+	new file:   aboutusdraft.css
+	new file:   button.png
+	new file:   city.png
+	new file:   city1.jpg
+	new file:   donate.png
+	new file:   donate2.png
+	new file:   dot.png
+	new file:   download-1 9.01.05 AM.jpg
+	new file:   download.jpg
+	new file:   favicon.ico
+	new file:   favicon2.ico
+	new file:   fb.png
+	new file:   find_food.html
+	new file:   food.jpg
+	new file:   fruit.jpg
+	new file:   green2.svg
+	new file:   harbor.jpg
+	new file:   help.png
+	new file:   images-1.jpg
+	new file:   images-2.jpg
+	new file:   images.jpg
+	new file:   index.html
+	new file:   leaf.jpeg
+	new file:   logi.png
+	new file:   logo.png
+	new file:   logo2.png
+	new file:   logo3.png
+	new file:   logo4.png
+	new file:   love.png
+	new file:   market.jpg
+	new file:   poooo.png
+	new file:   produce.jpg
+	new file:   produce2.jpg
+	new file:   radish.png
+	new file:   request.png
+	new file:   requests 2.js
+	new file:   requests.html
+	new file:   requests.js
+	new file:   requestspecific.css
+	new file:   requestspecific.html
+	new file:   stylefind_food.css
+	new file:   styleindex.css
+	new file:   stylerequests.css
+	new file:   stylevolunteer.css
+	new file:   truck.png
+	new file:   veg1.png
+	new file:   veg2.png
+	new file:   veg3.png
+	new file:   veggies.jpg
+	new file:   vol.html
+	new file:   vol.js
+	new file:   volunteer.html
+	new file:   volunteerReal.jpg
+	new file:   volunteerspecific.css
+	new file:   volunteerspecific.html
+	new file:   volunteersubmit.html
+	new file:   weird.jpg
+	new file:   what.jpeg
+	new file:   what.jpg
+	new file:   wowie.jpg
+	new file:   yum.png
+
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git commit -m "finalweb"
+[master (root-commit) 7e8fbe0] finalweb
+ Committer: GWC20 <gwc20@GWC20s-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 71 files changed, 2005 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 15344473824521761-1.png
+ create mode 100755 Abby.JPG
+ create mode 100755 F.png
+ create mode 100755 Florkenthia3.JPG
+ create mode 100755 Stephanie.JPG
+ create mode 100644 Tal.JPG
+ create mode 100755 Tal2.JPG
+ create mode 100644 Volunteer.json
+ create mode 100644 aboutus.html
+ create mode 100644 aboutusdraft.css
+ create mode 100644 button.png
+ create mode 100644 city.png
+ create mode 100644 city1.jpg
+ create mode 100644 donate.png
+ create mode 100644 donate2.png
+ create mode 100644 dot.png
+ create mode 100644 download-1 9.01.05 AM.jpg
+ create mode 100644 download.jpg
+ create mode 100644 favicon.ico
+ create mode 100644 favicon2.ico
+ create mode 100644 fb.png
+ create mode 100644 find_food.html
+ create mode 100644 food.jpg
+ create mode 100644 fruit.jpg
+ create mode 100644 green2.svg
+ create mode 100644 harbor.jpg
+ create mode 100644 help.png
+ create mode 100644 images-1.jpg
+ create mode 100644 images-2.jpg
+ create mode 100644 images.jpg
+ create mode 100644 index.html
+ create mode 100644 leaf.jpeg
+ create mode 100755 logi.png
+ create mode 100644 logo.png
+ create mode 100644 logo2.png
+ create mode 100755 logo3.png
+ create mode 100755 logo4.png
+ create mode 100644 love.png
+ create mode 100644 market.jpg
+ create mode 100755 poooo.png
+ create mode 100644 produce.jpg
+ create mode 100644 produce2.jpg
+ create mode 100644 radish.png
+ create mode 100755 request.png
+ create mode 100644 requests 2.js
+ create mode 100644 requests.html
+ create mode 100644 requests.js
+ create mode 100644 requestspecific.css
+ create mode 100644 requestspecific.html
+ create mode 100644 stylefind_food.css
+ create mode 100644 styleindex.css
+ create mode 100644 stylerequests.css
+ create mode 100644 stylevolunteer.css
+ create mode 100644 truck.png
+ create mode 100644 veg1.png
+ create mode 100644 veg2.png
+ create mode 100644 veg3.png
+ create mode 100644 veggies.jpg
+ create mode 100644 vol.html
+ create mode 100644 vol.js
+ create mode 100644 volunteer.html
+ create mode 100644 volunteerReal.jpg
+ create mode 100644 volunteerspecific.css
+ create mode 100644 volunteerspecific.html
+ create mode 100644 volunteersubmit.html
+ create mode 100644 weird.jpg
+ create mode 100644 what.jpeg
+ create mode 100644 what.jpg
+ create mode 100644 wowie.jpg
+ create mode 100644 yum.png
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ 
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git status
+On branch master
+nothing to commit, working tree clean
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git remote add https://github.com/tals2000/Healthy-Eats-Boston.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git remote add origin https://github.com/tals2000/Healthy-Eats-Boston.git
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git push origin master
+Enumerating objects: 71, done.
+Counting objects: 100% (71/71), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (70/70), done.
+Writing objects: 100% (71/71), 3.65 MiB | 4.75 MiB/s, done.
+Total 71 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/tals2000/Healthy-Eats-Boston.git
+ * [new branch]      master -> master
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git push origin -u master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git branch -n leaf
+error: unknown switch `n'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ git checkout -n leaf
+error: unknown switch `n'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+GWC20s-MacBook-Air:Healthy-Eats-Boston gwc20$ 
