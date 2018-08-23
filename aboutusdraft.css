@@ -6,7 +6,7 @@ body {font-family: Verdana;
 }
 .container {
   position: relative;
-  width: 20%;
+  width: 24%;
   height: 40%;
   display: inline-block;
   margin-top: 50px;
@@ -32,7 +32,7 @@ body {font-family: Verdana;
   left: 0;
   right: 0;
   height: 70%;
-  width: 70%;
+  width: 60%;
   opacity: 0;
   transition: .5s ease;
   margin-left: 200px;
