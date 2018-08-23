@@ -141,7 +141,7 @@ ul.active{
 }
 
 #blockright{
-  width: 60%;
+  width: 100%;
   font-family: verdana;
   font-size: 20px;
   height:200%;
@@ -151,7 +151,6 @@ ul.active{
   float: center;
   text-align: center;
   margin-right: 200px;
-  margin-left: 275px;
   clear: both;
 
 
